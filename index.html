@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Forecast App</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="apple-touch-icon" href="icons/icon 96x96.png">
+        <meta name="theme-color" content="#E066FF">
+        
+    </head>
+    <body> 
+        <div class="app-wrap">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+        
+           
+        <header>
+            <input type="text" autocomplete="of" class="search-box" placeholder="Search for city..."/> 
+         </header>
+        <main>
+            <section class="location">
+                <div class="city">_..._ , _.._</div>
+                <div class="date">Day Date Month Year</div>
+
+            </section>
+            <div class="current">
+            <div class="temp">..<span>°c</span></div>
+            <div class="weather">...</div>
+            <div class="hi-low">..°c / ..°c</div>
+            </div>
+        </main>
+        </div>
+        
+            <script src="./app.js"></script>
+            <script src="./main.js"></script>
+           
+        </body>
+</html>
